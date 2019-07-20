@@ -1,0 +1,127 @@
+section{
+    border: 1px solid #d4d4d4;
+}
+
+.section_1{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.section_1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_1 div:nth-child(1){
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000000;
+}
+
+.section_1 div:nth-child(2){
+    width: 100px;
+    height: 150px;
+    border: 1px solid #000000;
+}
+
+.section_2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section_2 div div{
+    display: flex;
+    align-items: center;
+    height: 8vh;
+}
+.check{
+    height: 20px;
+}
+img[src="profile.svg"]{
+    height: 60px;
+}
+
+figcaption img:hover{
+    box-shadow:  5px 5px 5px 0px rgba(0, 0, 0, 0.247);
+}
+
+
+
+.section_3{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px 10px 0px;
+}
+
+.section_5{
+    display: flex;
+    justify-content: center;
+}
+
+.section_5 div{
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.section_5 div label{
+    display: block;
+    font-weight: bold;
+}
+
+button[type="button"]{
+    background-color: green;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    padding: 0.8rem;
+}
+
+button[type="button"]:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.section_4{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    flex: 1;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+}
+
+header{
+    background-color: #585858;
+    padding: 0.5rem;
+    color: #fff;
+    font-size: 2rem;
+}
+
+span:hover{
+    color: #e4e139;
+}
+
+header img{
+    width: 50px;
+}
